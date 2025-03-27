@@ -1,7 +1,7 @@
 NAME = final-project
 
-CC = gcc
-CFLAGS = -std=c++17 -O2
+CC = g++
+CFLAGS = -std=c++17
 LD_FLAGS = -lglfw -lvulkan -ldl -lpthread -lX11 -lXxf86vm -lXrandr -lXi
 
 BIN_DIR = bin
